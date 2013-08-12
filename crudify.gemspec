@@ -11,16 +11,16 @@ Gem::Specification.new do |s|
   s.email       = ["spencer@citrusme.com"]
   s.homepage    = "http://github.com/citrus/crudify"
   
-  s.summary     = %q{Crudify is a dynamic resource controller for Rails 3.}
-  s.description = %q{Crudify is a dynamic resource controller for Rails 3. The idea is skinny controllers with powerful hooks for easy customization.}
+  s.summary     = %q{Crudify is a dynamic resource controller for Rails 4.}
+  s.description = %q{Crudify is a dynamic resource controller for Rails 4. The idea is skinny controllers with powerful hooks for easy customization.}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
   s.add_dependency('rails',         '>= 4.0.0')
-  s.add_dependency('will_paginate', '>= 2.3.15')
-  s.add_dependency('meta_search',   '>= 1.0.1')
+  s.add_dependency('will_paginate', '>= 3.0')
+  s.add_dependency('meta_search',   '>= 1.1.3')
   
   s.add_development_dependency('shoulda', '>= 2.11.3')
   s.add_development_dependency('sqlite3-ruby', '>= 1.3.3')
